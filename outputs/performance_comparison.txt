@@ -1,0 +1,22 @@
+Performance Comparison (same position, same depth limit)
+
+Position: empty
+Depth limit: 5
+
+Minimax:
+  time_sec          = 0.674137
+  nodes_expanded    = 19607
+  max_depth_reached = 5
+  nodes_per_sec     = 29084.60
+  chosen_move       = 2
+
+Alpha-Beta:
+  time_sec          = 0.083787
+  nodes_expanded    = 2646
+  max_depth_reached = 5
+  nodes_per_sec     = 31580.15
+  chosen_move       = 2
+
+Decision comparison:
+  same_move?        = True
+  same_root_value?  = True

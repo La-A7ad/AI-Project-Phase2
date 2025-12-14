@@ -1,0 +1,9 @@
+digraph D {
+  rankdir=LR;
+  node [shape=box, fontsize=12];
+  root [label="Root\nDecision: SAME"];
+  mm [label="Minimax\nmove=c2\nvalue=72"];
+  ab [label="Alpha-Beta\nmove=c2\nvalue=72"];
+  root -> mm;
+  root -> ab;
+}
